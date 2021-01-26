@@ -1,135 +1,166 @@
-a {
-    display: flex;
-    text-decoration: none;
-}
-
-.sub {
-    margin-top: 10px;
-    width: 100%;
-    height: 40%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.sub .ver-mais {
-    margin-top: 10px;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.noticia {
-    width: auto;
-    height: 170px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    margin-bottom: 25px;
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
-}
-
-.noticia img {
-    width: 200px;
-    height: 135px;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    transform: translate(100px, 0);
-    transition: width 0.5s, height 1s;
-}
-
-.ballonlateral {
-    display: flex;
-    flex-wrap: wrap;
-    width: 560px;
-    height: 100%;
-    background-color: #fff;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.ballonlateral h4 {
-    color: #073267;
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 22px;
-    margin-left: 150px;
-    margin-top: 33px;
-}
-
-.ballonlateral p {
-    color: darkslateblue;
-    font-weight: 300;
-    margin-left: 150px;
-    margin-right: 12px;
-}
-
-.ballonlateral a {
-    text-decoration: none !important;
-    display: block;
-}
-
-.ballonlateral img {
-    margin-left: 45px;
-    width: 20px;
-    height: 20px;
-}
-
-.sub .noticia:hover img {
-    width: 250px;
-    height: 190px;
-}
-
-.sub .noticia:hover a img {
-    width: 20px;
-    height: 20px
-}
-
-.container {
-    margin-left: 400px;
-}
-
-.no-show {
-    display: none;
-}
-
-.load-more {
-    display: flex;
-}
-
-.show-more {
-    cursor: pointer;
-    align-self: center;
-}
-
-.no-show .load-more {
-    scroll-behavior: smooth
-}
-
-
-/* Responsivo */
-
-@media (max-width: 1024px) {
-    .sub {
-        display: block;
-    }
-    .noticia .foto {
-        pointer-events: none;
-    }
-    .ballonlateral h4 {
-        margin-left: 100px;
-    }
-    .ballonlateral p {
-        margin-left: 50px;
-    }
-    .noticia img {
-        transform: translate(40px, 0);
-    }
-}
-
-@media (max-width: 910px) {
-    .sub {
-        margin-top: 155px;
-    }
-}
+            a {
+                display: flex;
+                text-decoration: none;
+            }
+            
+            .sub {
+                margin-top: 10px;
+                width: 100%;
+                height: 40%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .sub .ver-mais {
+                margin-top: 10px;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            
+            .noticia {
+                width: auto;
+                height: 170px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                margin-bottom: 25px;
+                filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
+            }
+            
+            .noticia img {
+                width: 200px;
+                height: 135px;
+                object-fit: cover;
+                border-radius: 10px;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                transform: translate(100px, 0);
+                transition: width 0.5s, height 1s;
+            }
+            
+            .ballonlateral {
+                display: flex;
+                flex-wrap: wrap;
+                width: 560px;
+                height: 100%;
+                background-color: #fff;
+                border-radius: 10px;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+            }
+            
+            .ballonlateral h4 {
+                color: #073267;
+                font-size: 32px;
+                font-weight: bold;
+                margin-bottom: 22px;
+                margin-left: 150px;
+                margin-top: 33px;
+            }
+            
+            .ballonlateral p {
+                color: darkslateblue;
+                font-weight: 300;
+                margin-left: 150px;
+                margin-right: 12px;
+            }
+            
+            .ballonlateral a {
+                text-decoration: none !important;
+                display: block;
+            }
+            
+            .ballonlateral img {
+                margin-left: 8px;
+                width: auto;
+                height: 25px;
+            }
+            
+            .sub .noticia:hover img {
+                width: 250px;
+                height: 190px;
+            }
+            
+            .sub .noticia:hover a img {
+                width: 20px;
+                height: 20px
+            }
+            
+            .container {
+                margin-left: 400px;
+            }
+            
+            .show-more {
+                text-align: center;
+                color: #fff;
+                width: 200px;
+                cursor: pointer;
+                align-self: center;
+            }
+            
+            .no-show {
+                display: none;
+            }
+            
+            .load-more {
+                display: flex;
+            }
+            
+            .no-show .load-more {
+                scroll-behavior: smooth
+            }
+            /* Responsivo */
+            
+            @media (max-width: 1024px) {
+                .sub {
+                    display: block;
+                }
+                .noticia .foto {
+                    pointer-events: none;
+                }
+                .ballonlateral h4 {
+                    margin-left: 100px;
+                }
+                .ballonlateral p {
+                    margin-left: 50px;
+                }
+                .noticia img {
+                    transform: translate(40px, 0);
+                }
+            }
+            
+            .destaque a {
+                margin-top: 15px;
+            }
+            
+            @media (max-width: 1024px) {
+                .sub {
+                    margin-top: 130px;
+                }
+            }
+            
+            @media (max-width: 910px) {
+                .sub {
+                    margin-top: 155px;
+                }
+            }
+            
+            @media (max-width: 425px) {
+                .noticia {
+                    display: block;
+                    width: auto;
+                    height: auto;
+                }
+                .noticia img {
+                    transform: translate(40px, 35px);
+                }
+                .noticia a img {
+                    margin-left: 8px;
+                    width: auto;
+                    height: 25px;
+                    transform: translate(40px, 0px);
+                }
+                .ballonlateral {
+                    width: 287px;
+                }
+            }
