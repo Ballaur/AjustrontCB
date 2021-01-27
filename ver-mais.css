@@ -82,12 +82,17 @@
             }
             
             .sub .noticia:hover a img {
-                width: 20px;
-                height: 20px
+                width: inherit;
+                height: 25px;
             }
             
             .container {
+                width: inherit;
                 margin-left: 400px;
+            }
+            
+            .container img {
+                width: inherit;
             }
             
             .show-more {
@@ -162,5 +167,11 @@
                 }
                 .ballonlateral {
                     width: 287px;
+                }
+            }
+            
+            @media (max-width: 425px) {
+                .container {
+                    display: none;
                 }
             }

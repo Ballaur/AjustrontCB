@@ -94,15 +94,31 @@
     .card:nth-child(1) {
         width: 80%;
     }
+    .card img {
+        width: 90%;
+        height: 270px;
+    }
+    .ballon {
+        width: 90%;
+    }
     .destaque {
         width: 100%;
         height: 100%;
         display: grid;
     }
-}
-
-@media (max-width: 1024px) {
     .destaque a {
         margin-top: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card img {
+        height: 260px;
+    }
+}
+
+@media (max-width: 425px) {
+    .card img {
+        height: 200px;
     }
 }
