@@ -118,6 +118,10 @@
 }
 
 @media (max-width: 425px) {
+    .ballon p {
+        margin-left: 5px;
+        font-size: 15px;
+    }
     .card img {
         height: 200px;
     }
