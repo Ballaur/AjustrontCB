@@ -89,6 +89,7 @@
             .container {
                 width: inherit;
                 margin-left: 400px;
+                margin-bottom: 20px;
             }
             
             .container img {
@@ -119,6 +120,7 @@
             @media (max-width: 1024px) {
                 .sub {
                     display: block;
+                    margin-top: 160px;
                 }
                 .noticia .foto {
                     pointer-events: none;
@@ -136,12 +138,6 @@
             
             .destaque a {
                 margin-top: 15px;
-            }
-            
-            @media (max-width: 1024px) {
-                .sub {
-                    margin-top: 130px;
-                }
             }
             
             @media (max-width: 910px) {
