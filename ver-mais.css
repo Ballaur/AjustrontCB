@@ -50,19 +50,26 @@
             }
             
             .ballonlateral h4 {
-                color: #073267;
-                font-size: 32px;
+                font-family: utopiabold, serif;
+                color: #202020;
+                font-size: 25px;
                 font-weight: bold;
-                margin-bottom: 22px;
+                margin-bottom: 5px;
                 margin-left: 150px;
-                margin-top: 33px;
+                margin-top: 15px;
+                padding-left: 12px;
+                padding-right: 12px;
             }
             
             .ballonlateral p {
-                color: darkslateblue;
+                font-family: utopiabold, serif;
+                color: #202020;
                 font-weight: 300;
+                font-size: .95rem;
                 margin-left: 150px;
                 margin-right: 12px;
+                padding-left: 12px;
+                padding-right: 12px;
             }
             
             .ballonlateral a {
@@ -142,7 +149,7 @@
             
             @media (max-width: 910px) {
                 .sub {
-                    margin-top: 155px;
+                    margin-top: 200px;
                 }
             }
             

@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 .content {
     width: 100%;
     height: 100%;
@@ -71,19 +70,27 @@
 }
 
 .ballon h4 {
-    color: #073267;
-    font-size: 32px;
+    color: #202020;
+    font-family: utopiabold, serif;
+    font-size: 22px;
     font-weight: bold;
     margin-left: 10px;
-    margin-bottom: 22px;
+    margin-bottom: 11px;
     margin-top: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .ballon p {
-    color: darkslateblue;
+    color: #202020;
+    font-family: utopiabold, serif;
     font-weight: 300;
+    font-size: 20px;
+    font-size: .95rem;
     margin-left: 10px;
-    margin-right: 12px;
+    /* margin-right: 12px; */
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 .card {
