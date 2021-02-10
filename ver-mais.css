@@ -127,7 +127,7 @@
             @media (max-width: 1024px) {
                 .sub {
                     display: block;
-                    margin-top: 160px;
+                    margin-top: 310px;
                 }
                 .noticia .foto {
                     pointer-events: none;
@@ -149,11 +149,20 @@
             
             @media (max-width: 910px) {
                 .sub {
-                    margin-top: 200px;
+                    margin-top: 240px;
+                }
+                .ballonlateral h4 {
+                    font-size: 15px;
+                    padding-left: 9px;
+                    margin-left: 54px;
+                    margin-top: 40px;
                 }
             }
             
             @media (max-width: 425px) {
+                .sub {
+                    margin-top: 135px;
+                }
                 .noticia {
                     display: block;
                     width: auto;
@@ -170,6 +179,12 @@
                 }
                 .ballonlateral {
                     width: 287px;
+                }
+                .ballonlateral h4 {
+                    font-size: 15px;
+                    padding-left: 9px;
+                    margin-left: 54px;
+                    margin-top: 40px;
                 }
             }
             
