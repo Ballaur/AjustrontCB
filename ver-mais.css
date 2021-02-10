@@ -4,9 +4,7 @@
             }
             
             .sub {
-                margin-top: 10px;
                 width: 100%;
-                height: 40%;
                 display: flex;
                 flex-wrap: wrap;
             }
@@ -29,6 +27,10 @@
                 filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
             }
             
+            .noticia:nth-child(1) {
+                margin-top: 25px;
+            }
+            
             .noticia img {
                 width: 200px;
                 height: 135px;
@@ -46,12 +48,12 @@
                 height: 100%;
                 background-color: #fff;
                 border-radius: 10px;
-                border: 1px solid rgba(0, 0, 0, 0.1);
+                border: 1px solid rgba(27, 114, 133, 0.1);
             }
             
             .ballonlateral h4 {
                 font-family: utopiabold, serif;
-                color: #202020;
+                color: #073267;
                 font-size: 25px;
                 font-weight: bold;
                 margin-bottom: 5px;
@@ -62,8 +64,8 @@
             }
             
             .ballonlateral p {
-                font-family: utopiabold, serif;
-                color: #202020;
+                font-family: latoregular, sans-serif;
+                color: #666;
                 font-weight: 300;
                 font-size: .95rem;
                 margin-left: 150px;
@@ -127,7 +129,7 @@
             @media (max-width: 1024px) {
                 .sub {
                     display: block;
-                    margin-top: 310px;
+                    margin-top: 440px;
                 }
                 .noticia .foto {
                     pointer-events: none;
@@ -161,7 +163,8 @@
             
             @media (max-width: 425px) {
                 .sub {
-                    margin-top: 135px;
+                    margin-left: 30px;
+                    margin-top: 40px;
                 }
                 .noticia {
                     display: block;

@@ -8,22 +8,22 @@
 }
 
 .main {
-    margin-left: 30px;
+    /* margin-left: 30px;
     padding-top: 30px;
-    height: 100%;
-    width: 70%;
+    height: 100%; 
+    width: 70%;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .destaque {
-    width: 100%;
+    /* width: 100%;
     height: 53%;
-    /* background-color: #fff;
+     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.1); */
     border-radius: 15px;
-    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.15));
+    filter: drop-shadow(4px 4px 4px rgba(27, 114, 133, .06));
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -32,15 +32,13 @@
 .card {
     margin: 0 auto;
     width: 399px;
-    height: 384px;
+    height: auto;
     border-radius: 10px;
-    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.15));
-    transition: 0.3s;
+    filter: drop-shadow(2px 2px 4px rgba(27, 114, 133, 0.15));
 }
 
 .card img {
     width: 100%;
-    height: 266px;
     border-radius: 10px;
 }
 
@@ -63,14 +61,14 @@
     width: 100%;
     height: 135px;
     background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(27, 114, 133, 0.1);
     border-radius: 10px;
     transform: translate(0, -20px);
-    font-family: 'Roboto', sans-serif;
+    font-family: latoregular, sans-serif;
 }
 
 .ballon h4 {
-    color: #202020;
+    color: #073267;
     font-family: utopiabold, serif;
     font-size: 22px;
     font-weight: bold;
@@ -82,7 +80,7 @@
 }
 
 .ballon p {
-    color: #202020;
+    color: #666;
     font-family: utopiabold, serif;
     font-weight: 300;
     font-size: 20px;
@@ -103,7 +101,6 @@
         margin-top: 86px;
     }
     .card img {
-        width: 90%;
         height: auto;
     }
     .ballon {
@@ -119,15 +116,15 @@
     }
 }
 
-@media (max-width: 768px) {
-    .card img {
-        width: 90%;
-        height: auto;
-    }
-    .ballon {
-        width: 100%;
-        height: auto;
-    }
+@media (max-width: 768px) {}
+
+.card img {
+    height: auto;
+}
+
+.ballon {
+    width: 100%;
+    height: auto;
 }
 
 @media (max-width: 425px) {
