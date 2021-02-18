@@ -26,7 +26,7 @@
     filter: drop-shadow(4px 4px 4px rgba(27, 114, 133, .06));
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -37,13 +37,33 @@
     filter: drop-shadow(2px 2px 4px rgba(27, 114, 133, 0.15));
 }
 
+.destaque a {
+    margin-top: 15px;
+}
+
+.boximg {
+    /* overflow: hidden; */
+    width: 560px;
+    height: 399px;
+    border-radius: 10px;
+    background-color: #073267;
+}
+
+.box {
+    width: 100%;
+    height: auto;
+}
+
 .card img {
     width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 
 .card:nth-child(1) {
     margin: 0 auto;
+    width: 100%;
+    height: auto;
     /* margin-right: 200px; */
 }
 
@@ -59,11 +79,11 @@
 
 .ballon {
     width: 100%;
-    height: 135px;
+    height: 50%;
     background-color: #fff;
     border: 1px solid rgba(27, 114, 133, 0.1);
     border-radius: 10px;
-    transform: translate(0, -20px);
+    transform: translate(0, -37px);
     font-family: latoregular, sans-serif;
 }
 
@@ -83,12 +103,13 @@
     color: #666;
     font-family: utopiabold, serif;
     font-weight: 300;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-size: .95rem;
     margin-left: 10px;
-    /* margin-right: 12px; */
+    margin-right: 12px;
     padding-left: 12px;
     padding-right: 12px;
+    padding-bottom: 12px;
 }
 
 .card {
@@ -97,10 +118,14 @@
 
 @media (max-width: 1024px) {
     .card:nth-child(1) {
-        width: 80%;
-        margin-top: 86px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .boximg {
+        margin-top: 55px;
     }
     .card img {
+        width: 100%;
         height: auto;
     }
     .ballon {
@@ -128,6 +153,15 @@
 }
 
 @media (max-width: 425px) {
+    .destaque a {
+        margin-top: -55px;
+        margin-left: 12px;
+        width: 70%;
+    }
+    .boximg {
+        margin-top: 65px;
+        height: 355px;
+    }
     .ballon {
         width: 100%;
     }
@@ -141,5 +175,24 @@
     }
     .card img {
         width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .destaque a {
+        margin-top: -45px;
+        width: 61%;
+    }
+    .boximg {
+        height: 320px;
+    }
+}
+
+@media(max-width: 320px) {
+    .boximg {
+        height: 300px;
+    }
+    .destaque a {
+        width: 52%;
     }
 }
