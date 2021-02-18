@@ -104,6 +104,11 @@
             
             .container img {
                 width: inherit;
+                opacity: 0.8;
+            }
+            
+            .container:hover img {
+                opacity: 1;
             }
             
             .show-more {
