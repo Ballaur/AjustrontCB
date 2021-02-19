@@ -7,6 +7,15 @@
     justify-content: space-between;
 }
 
+@keyframes content {
+    0% {
+        background: #19dcea;
+    }
+    100% {
+        background: #b22cff;
+    }
+}
+
 .main {
     /* margin-left: 30px;
     padding-top: 30px;
@@ -35,6 +44,7 @@
     height: auto;
     border-radius: 10px;
     filter: drop-shadow(2px 2px 4px rgba(27, 114, 133, 0.15));
+    /* transition: .3s; */
 }
 
 .destaque a {
@@ -68,7 +78,8 @@
 }
 
 
-/* .card :hover a {
+/* 
+.card :hover a {
     max-width: 75%;
     max-height: 75%;
 }
