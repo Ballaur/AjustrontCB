@@ -22,7 +22,7 @@ body {
 .main {
     /* margin-left: 30px;
     padding-top: 30px;
-    height: 100%;*/ 
+    height: 100%;*/
     max-width: 945px;
     display: flex;
     flex-direction: column;
@@ -114,10 +114,9 @@ body {
 }
 
 .ballon p {
+    font-family: latoregular, sans-serif;
     color: #666;
-    font-family: utopiabold, serif;
     font-weight: 300;
-    /* font-size: 20px; */
     font-size: .95rem;
     margin-left: 10px;
     margin-right: 12px;
@@ -134,9 +133,6 @@ body {
     .card:nth-child(1) {
         width: 100%;
         margin-top: 0px;
-    }
-    .boximg {
-        margin-top: 55px;
     }
     .card img {
         width: 100%;
@@ -170,7 +166,7 @@ body {
     .destaque a {
         margin-top: -55px;
         margin-left: 12px;
-        width: 70%;
+        width: 85%;
     }
     .boximg {
         margin-top: 65px;
@@ -195,7 +191,7 @@ body {
 @media (max-width: 375px) {
     .destaque a {
         margin-top: -45px;
-        width: 61%;
+        width: 76%;
     }
     .boximg {
         height: 320px;
@@ -207,6 +203,6 @@ body {
         height: 300px;
     }
     .destaque a {
-        width: 52%;
+        width: 65%;
     }
 }

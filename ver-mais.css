@@ -4,7 +4,6 @@
             }
             
             .sub {
-                margin-top: 1em;
                 width: 100%;
                 display: flex;
                 flex-wrap: wrap;
@@ -40,6 +39,11 @@
                 border: 1px solid rgba(0, 0, 0, 0.1);
                 transform: translate(100px, 0);
                 transition: width 0.5s, height 1s;
+            }
+            
+            .noticia:hover img {
+                width: 250px;
+                height: 190px;
             }
             
             .ballonlateral {
@@ -86,16 +90,6 @@
                 height: 25px;
             }
             
-            .sub .noticia:hover img {
-                width: 250px;
-                height: 190px;
-            }
-            
-            .sub .noticia:hover a img {
-                width: inherit;
-                height: 25px;
-            }
-            
             .container {
                 width: inherit;
                 margin-left: 400px;
@@ -133,10 +127,6 @@
             /* Responsivo */
             
             @media (max-width: 1024px) {
-                .sub {
-                    display: block;
-                    margin-top: 317px;
-                }
                 .noticia .foto {
                     pointer-events: none;
                 }
@@ -148,13 +138,17 @@
                 }
                 .noticia img {
                     transform: translate(40px, 0);
+                    pointer-events: none;
                 }
             }
             
-            @media (max-width: 910px) {
+            @media (max-width: 768px) {
                 .sub {
-                    margin-top: 320px;
-                    margin-left: -17px;
+                    margin-left: -22px;
+                }
+                .noticia:hover img {
+                    width: 200px;
+                    height: 190px;
                 }
                 .ballonlateral h4 {
                     font-size: 15px;
@@ -170,7 +164,7 @@
             
             @media (max-width: 425px) {
                 .sub {
-                    margin-top: 60px;
+                    margin-top: -30px;
                     margin-left: 50px;
                 }
                 .noticia {
@@ -188,16 +182,14 @@
                     transform: translate(40px, 0px);
                 }
                 .ballonlateral {
-                    width: 287px;
+                    width: 328px;
+                    height: auto
                 }
                 .ballonlateral h4 {
                     font-size: 15px;
                     padding-left: 9px;
                     margin-top: 40px;
                 }
-            }
-            
-            @media (max-width: 425px) {
                 .container {
                     display: none;
                 }
@@ -205,7 +197,10 @@
             
             @media (max-width: 375px) {
                 .sub {
-                    margin-top: -40px;
+                    margin-top: -25px;
+                }
+                .ballonlateral {
+                    width: 275px;
                 }
             }
             
