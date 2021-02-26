@@ -205,4 +205,8 @@ body {
     .destaque a {
         width: 65%;
     }
+    .ballon h4 {
+        margin-left: 8px;
+        padding-right: 24px;
+    }
 }
